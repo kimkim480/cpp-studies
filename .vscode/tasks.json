@@ -12,7 +12,7 @@
                 "-Wall",
                 "${file}",
                 "-o",
-                "${fileDirname}/${fileBasenameNoExtension}"
+                "${fileDirname}/${fileBasenameNoExtension}.o"
             ],
             "options": {
                 "cwd": "${workspaceFolder}"
